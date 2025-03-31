@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "build"
+
+[build.environment]
+  NPM_FLAGS = "--no-audit --no-fund"
